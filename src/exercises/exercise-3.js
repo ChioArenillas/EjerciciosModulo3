@@ -13,4 +13,3 @@ for (let i=0; i<text.length; i++){
         counter++;
     }
 }
-console.log("Number of vowels is " + counter);

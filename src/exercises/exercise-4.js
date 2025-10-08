@@ -6,9 +6,9 @@ Muestra el resultado de quitar las vocales a un string que pasamos como parámet
 
 const string = "Hi, I am learning Javascript";
 
-export function removeVowels(string) {
+export function exercise4(string) {
   const result = string.replace(/[aeiou]/gi, '');
   console.log(result);
 }
 
-removeVowels(string);
+exercise4(string);

@@ -6,7 +6,7 @@ Nota: even = par | odd = impar
 */
 
 
-  export function evenOdd(number){
+  export function exercise2(number){
     if( number % 2 == 0){ 
         console.log( "Number " + number + " is even");
     }
@@ -15,8 +15,6 @@ Nota: even = par | odd = impar
     }
   }
 
-evenOdd(34);
-evenOdd(13);
 
 
 

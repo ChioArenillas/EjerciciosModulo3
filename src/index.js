@@ -2,8 +2,8 @@ import * as exercises from "./exercises/index.js";
 import { showContent } from "./utils.js";
 
 showContent(1, exercises.exercise1("Chio"));
-showContent(2, exercises.exercise2(7)); // ejemplo numérico
-showContent(3, exercises.exercise3("hola"));
+showContent(2, exercises.exercise2(34, 13)); // ejemplo numérico
+showContent(3, exercises.exercise3());
 showContent(4, exercises.exercise4([1, 2, 3, 4]));
 showContent(5, exercises.exercise5("JavaScript"));
 showContent(6, exercises.exercise6(15));
