@@ -13,7 +13,7 @@ Un reloj muestra:
 
 */
 
-function getTime() {
+export function getTime() {
   const now = new Date();
   return {
     hours: now.getHours(),
@@ -22,7 +22,7 @@ function getTime() {
   };
 }
 
-function millisecondsSinceMidnight() {
+export function millisecondsSinceMidnight() {
   const { hours, minutes, seconds } = getTime();
 
   const milliseconds =

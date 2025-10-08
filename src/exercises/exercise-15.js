@@ -4,7 +4,7 @@ Muestra un array con el título y la descripción de las mejores peliculas orden
 siendo las mejores aquellas cuya valoración es superior a la valoración media de todas las películas
 */
 
-import { movies } from "../data";
+import { movies } from "../data.js";
 
 export function exercise15() {
   const totalRating = movies.reduce((acc, movie) => acc + movie.rating, 0);

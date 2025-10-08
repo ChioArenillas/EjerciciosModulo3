@@ -7,13 +7,10 @@ Ejemplos:
 "La frase 'hola mundo' NO es un palíndromo"
 */
 
-const text = "Dabale arroz a la zorra el abad";
+const sample = "Dabale arroz a la zorra el abad";
 
-function isPalindrome(text){
-    text = text.replaceAll(" ","");
-    text = text.toLowerCase();
-    }
-    reversedText = text.split("").reverse().join("");
-    return text === reversedText;
-    
-
+export function exercise7(text = sample) {
+  const cleaned = text.replaceAll(" ", "").toLowerCase();
+  const reversed = cleaned.split("").reverse().join("");
+  return cleaned === reversed;
+}

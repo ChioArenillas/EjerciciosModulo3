@@ -5,7 +5,7 @@ Sugerencia: puedes usar la variable "categories" en el archivo "src/js/data/movi
 */
 
 
-import { movies, categories } from "../data";
+import { movies, categories } from "../data.js";
 
 export function exercise12() {
   const filteredMovies = movies

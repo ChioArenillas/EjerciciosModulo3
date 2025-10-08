@@ -26,7 +26,7 @@ Sugerencia: usa el método "groupBy" de la clase Object
 
 
 
-import { movies } from "../data";
+import { movies } from "../data.js";
 
 export function exercise13() {
   const groupedMovies = Object.groupBy(movies, movie => movie.category);

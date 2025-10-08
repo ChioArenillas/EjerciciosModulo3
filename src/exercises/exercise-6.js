@@ -4,12 +4,12 @@ Genera un array de 10 números aleatorios entre 0 y 100, calcula el menor y
 el mayor y muestra el resultado por pantalla
 */
 
-function getRandom() {
+export function getRandom() {
     const numRand = Math.random() * 100;
     return Math.floor(numRand);
 }
 
-function randomArray(numberOfItems) {
+export function randomArray(numberOfItems) {
     const randomArray = [];
     const max = 100
 
@@ -18,7 +18,7 @@ function randomArray(numberOfItems) {
     }
     return randomArray;
 }
-function findMinMaxInArray(array) {
+export function findMinMaxInArray(array) {
     let min;
     let max;
 

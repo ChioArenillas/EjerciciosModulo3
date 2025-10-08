@@ -11,7 +11,7 @@ repetitions(function) // result: “FUuNnnTtttIiiiiOoooooNnnnnnn”
 
 */
 
-function repetitions(string) {
+export function repetitions(string) {
   let result = "";
 
   for (let i = 0; i < string.length; i++) {

@@ -2,9 +2,9 @@
 EJERCICIO 10:
 Muestra un array con el título de las películas ordenadas alfabéticamente
 */
-import { movies } from "../data";
+import { movies } from "../data.js";
 
-function sortStrings(a, b) {
+export function sortStrings(a, b) {
   const string1 = a.toLowerCase();
   const string2 = b.toLowerCase();
 

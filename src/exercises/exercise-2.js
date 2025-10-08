@@ -6,7 +6,7 @@ Nota: even = par | odd = impar
 */
 
 
-  function evenOdd(number){
+  export function evenOdd(number){
     if( number % 2 == 0){ 
         console.log( "Number " + number + " is even");
     }
