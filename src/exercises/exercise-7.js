@@ -1,3 +1,5 @@
+//COMPLETADO
+
 /* 
 EJERCICIO 7:
 Escribir una función que calcule si una cadena de texto es un palíndromo y
@@ -6,6 +8,8 @@ Ejemplos:
 "La frase 'Dábale arroz a la zorra el abad' es un palíndromo"
 "La frase 'hola mundo' NO es un palíndromo"
 */
+
+//COMPLETADO
 
 const sample = "Dabale arroz a la zorra el abad";
 

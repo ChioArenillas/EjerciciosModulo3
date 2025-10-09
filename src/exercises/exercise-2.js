@@ -1,3 +1,5 @@
+//COMPLETADO
+
 /* 
 EJERCICIO 2:
 Muestra el siguiente mensaje dependiendo de si un número es par o impar:

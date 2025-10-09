@@ -11,6 +11,7 @@ repetitions(function) // result: “FUuNnnTtttIiiiiOoooooNnnnnnn”
 
 */
 
+
 export function repetitions(string) {
   let result = "";
 

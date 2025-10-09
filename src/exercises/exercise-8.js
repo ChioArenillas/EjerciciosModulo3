@@ -1,3 +1,5 @@
+//COMPLETADO
+
 /* 
 EJERCICIO 8:
 Escribe una o varias funciones para que, dado un string, devuelva un array que contenga la posición 
