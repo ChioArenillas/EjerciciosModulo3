@@ -1,5 +1,8 @@
 //COMPLETADO
 
+import { showContent } from "../utils";
+
+
 /* 
 EJERCICIO 1:
 Muestra el siguiente saludo pasando un nombre como parámetro
@@ -10,5 +13,4 @@ export function exercise1(name) {
   return "Hello " + name + "," + " how are you doing today?";
 }
 
-
-  
+showContent(1, exercise1("Chio"));
