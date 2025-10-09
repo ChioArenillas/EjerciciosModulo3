@@ -8,7 +8,7 @@ Nota: even = par | odd = impar
 */
 
 
-  export function exercise2(number){
+  function exercise2(number){
     if( number % 2 == 0){ 
         console.log( "Number " + number + " is even");
     }
@@ -17,6 +17,8 @@ Nota: even = par | odd = impar
     }
   }
 
+  exercise2(13);
+  exercise2(42);
 
 
 

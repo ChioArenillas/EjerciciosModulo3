@@ -7,12 +7,12 @@ el mayor y muestra el resultado por pantalla
 */
 
 
-export function getRandom() {
+function getRandom() {
     const numRand = Math.random() * 100;
     return Math.floor(numRand);
 }
 
-export function randomArray(numberOfItems) {
+function randomArray(numberOfItems) {
     const randomArray = [];
     const max = 100
 
@@ -21,7 +21,7 @@ export function randomArray(numberOfItems) {
     }
     return randomArray;
 }
-export function findMinMaxInArray(array) {
+function findMinMaxInArray(array) {
     let min;
     let max;
 
@@ -39,7 +39,7 @@ export function findMinMaxInArray(array) {
     return [min, max];
 }
 
-const randArr = randomArray(10, 100)
+const randArr = randomArray(10, 100);
 console.log(getRandom(100));
 console.log(randArr);
 console.log(findMinMaxInArray(randArr));

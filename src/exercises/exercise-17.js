@@ -6,6 +6,7 @@ Dado una cadena de texto, comprueba si es un isograma o no y devuelve un mensaje
 "la cadena 'hola mundo' no es un isograma"
 */
 
+
 function isIsogram(){
     txt = txt.toLowerCase().replaceAll(' ','');
     const repetitions = {};
@@ -20,3 +21,4 @@ function isIsogram(){
     return Object.values(repetitions).findIndex(value => value !== 2) === -1;
 }
 
+isIsogram("chio mola");

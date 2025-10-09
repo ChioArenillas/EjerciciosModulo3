@@ -1,3 +1,5 @@
+//COMPLETADO
+
 /* 
 EJERCICIO 5:
 Escribe una función llamada "repetitions" que recibe de entrada una cadena de texto y 
@@ -12,7 +14,7 @@ repetitions(function) // result: “FUuNnnTtttIiiiiOoooooNnnnnnn”
 */
 
 
-export function repetitions(string) {
+function repetitions(string) {
   let result = "";
 
   for (let i = 0; i < string.length; i++) {
