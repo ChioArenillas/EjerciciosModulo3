@@ -12,25 +12,3 @@ Un reloj muestra:
  - podemos obtener la hora, minutos y segundos con la función "getTime" 
 
 */
-
-export function getTime() {
-  const now = new Date();
-  return {
-    hours: now.getHours(),
-    minutes: now.getMinutes(),
-    seconds: now.getSeconds(),
-  };
-}
-
-export function millisecondsSinceMidnight() {
-  const { hours, minutes, seconds } = getTime();
-
-  const milliseconds =
-    hours * 60 * 60 * 1000 + 
-    minutes * 60 * 1000 +    
-    seconds * 1000;          
-
-  return milliseconds;
-}
-
-console.log(`Milliseconds since midnight: ${millisecondsSinceMidnight()}`);

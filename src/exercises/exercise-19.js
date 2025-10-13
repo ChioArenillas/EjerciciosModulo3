@@ -15,19 +15,3 @@ Ejemplo: "Hello world"
 Nota: siempre letras minúsculas y sin tildes (para simplificar)
 */
 
-
-export function exercise19(text) {
-  const cleanText = text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "") 
-    .replace(/[^a-z]/g, "");
-
-  const letterCount = {};
-
-  for (const char of cleanText) {
-    letterCount[char] = (letterCount[char] || 0) + 1;
-  }
-
-  return letterCount;
-}
