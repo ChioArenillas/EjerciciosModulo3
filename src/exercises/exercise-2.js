@@ -10,10 +10,10 @@ Nota: even = par | odd = impar
 
   function exercise2(number){
     if( number % 2 == 0){ 
-        console.log( "Number " + number + " is even");
+        console.log( "Number ${number} is even");
     }
     else{
-        console.log("Number " + number + " is odd");
+        console.log("Number ${number} is odd");
     }
   }
 
