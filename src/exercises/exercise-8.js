@@ -7,17 +7,19 @@ que ocupa cada carácter en el abecedario. Para que sea más sencillo, elimina l
 (recuerda que puedes utilizar las funciones de ejercicios anteriores).
 */
 
-let text = "Dábale arroz a la zorra el abad";
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
+export function exercise8() {
+    let text = "Dábale arroz a la zorra el abad";
+    const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-text = text.replaceAll(" ","");
-text = text.toLowerCase();
-text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    text = text.replaceAll(" ","");
+    text = text.toLowerCase();
+    text = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
-let arrText = text.split("");
-let arrAlphabet = alphabet.split("");
-let arrResult = [];
+    let arrText = text.split("");
+    let arrAlphabet = alphabet.split("");
+    let arrResult = [];
 
-arrText.forEach(char => arrResult.push(arrAlphabet.indexOf(char)));
+    arrText.forEach(char => arrResult.push(arrAlphabet.indexOf(char)));
 
-console.log(arrResult);
+    return arrResult;
+}

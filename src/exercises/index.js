@@ -7,6 +7,7 @@ export * from "./exercise-6";
 export * from "./exercise-7";
 export * from "./exercise-8";
 export * from "./exercise-9";
+/*
 export * from "./exercise-10";
 export * from "./exercise-11";
 export * from "./exercise-12";
@@ -14,7 +15,10 @@ export * from "./exercise-13";
 export * from "./exercise-14";
 export * from "./exercise-15";
 export * from "./exercise-16";
+
 export * from "./exercise-17";
+
 export * from "./exercise-18";
 export * from "./exercise-19";
 export * from "./exercise-20";
+  */

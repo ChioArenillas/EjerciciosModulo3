@@ -7,7 +7,7 @@ el mayor y muestra el resultado por pantalla
 */
 
 
-function getRandom() {
+export function exercise6() {
     const numRand = Math.random() * 100;
     return Math.floor(numRand);
 }
@@ -17,7 +17,7 @@ function randomArray(numberOfItems) {
     const max = 100
 
     for (let i = 1; i <= numberOfItems; i++) {
-        randomArray.push(getRandom(max));
+        randomArray.push(exercise6(max));
     }
     return randomArray;
 }
@@ -40,6 +40,6 @@ function findMinMaxInArray(array) {
 }
 
 const randArr = randomArray(10, 100);
-console.log(getRandom(100));
+console.log(exercise6(100));
 console.log(randArr);
 console.log(findMinMaxInArray(randArr));

@@ -12,3 +12,15 @@ Un reloj muestra:
  - podemos obtener la hora, minutos y segundos con la función "getTime" 
 
 */
+
+export function exercise9() {
+  const now = new Date();
+  const h = now.getHours();
+  const m = now.getMinutes();
+  const s = now.getSeconds();
+
+  const milliseconds = (h * 3600 + m * 60 + s) * 1000;
+  return milliseconds;
+}
+
+

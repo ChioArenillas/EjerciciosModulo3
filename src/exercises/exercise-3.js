@@ -6,13 +6,15 @@ Muestra el siguiente mensaje con el resultado de contar el número de vocales qu
 “Number of vowels is <result>”
 */
 
-const text = "hello world";
-const vowels = "aeiou";
-let counter = 0;
+export function exercise3() {
+  const text = "hello world";
+  const vowels = "aeiou";
+  let counter = 0;
 
-for (let i=0; i<text.length; i++){
-    if (vowels.includes(text.charAt(i))){
-        counter++;
+  for (let i = 0; i < text.length; i++) {
+    if (vowels.includes(text.charAt(i))) {
+      counter++;
     }
+  }
+  return `Number of vowels is ${counter}`;
 }
-counter;

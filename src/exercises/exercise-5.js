@@ -14,19 +14,14 @@ repetitions(function) // result: “FUuNnnTtttIiiiiOoooooNnnnnnn”
 */
 
 
-function repetitions(string) {
+export function exercise5(string) {
   let result = "";
 
   for (let i = 0; i < string.length; i++) {
     const letter = string[i];
     result += letter.toUpperCase() + letter.toLowerCase().repeat(i);
   }
-
-  console.log(result);
   return result;
 }
 
 
-repetitions("code");
-repetitions("list");
-repetitions("function"); 

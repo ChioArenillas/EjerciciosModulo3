@@ -9,13 +9,12 @@ Ejemplos:
 "La frase 'hola mundo' NO es un palíndromo"
 */
 
-
 const sample = "Dabale arroz a la zorra el abad";
 
-function exercise7(text = sample) {
+export function exercise7(text = sample) {
+
   const cleaned = text.replaceAll(" ", "").toLowerCase();
   const reversed = cleaned.split("").reverse().join("");
   return cleaned === reversed;
 }
 
-exercise7();

@@ -4,11 +4,8 @@ Muestra el resultado de quitar las vocales a un string que pasamos como parámet
 “H, m lrnng Jvscrpt” // string original: “Hi, I am learning Javascript”
 */
 
-const string = "Hi, I am learning Javascript";
-
-function exercise4(string) {
-  const result = string.replace(/[aeiou]/gi, '');
-  console.log(result);
+export function exercise4() {
+  const text = "Hi, I am learning Javascript";
+  const result = text.replace(/[aeiou]/gi, '');
+  return result;
 }
-
-exercise4(string);
