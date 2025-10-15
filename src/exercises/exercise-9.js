@@ -15,11 +15,11 @@ Un reloj muestra:
 
 export function exercise9() {
   const now = new Date();
-  const h = now.getHours();
-  const m = now.getMinutes();
-  const s = now.getSeconds();
+  const hours = now.getHours();
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
 
-  const milliseconds = (h * 3600 + m * 60 + s) * 1000;
+  const milliseconds = (hours * 3600 + minutes * 60 + seconds) * 1000;
   return milliseconds;
 }
 

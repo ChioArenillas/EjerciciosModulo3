@@ -7,8 +7,8 @@ export * from "./exercise-6";
 export * from "./exercise-7";
 export * from "./exercise-8";
 export * from "./exercise-9";
-/*
 export * from "./exercise-10";
+/*
 export * from "./exercise-11";
 export * from "./exercise-12";
 export * from "./exercise-13";
